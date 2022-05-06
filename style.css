@@ -1,0 +1,236 @@
+.nav{
+    background-color: rgb(157, 103, 201);
+    display: flex;
+    height: 50px;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.nav li{
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    padding: 3px 22px;
+}       
+
+.nav li a {
+    justify-content: right;
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 3px 22px;
+    cursor: pointer;
+    border: 2px solid rgb(45, 75, 78);
+    border-radius: 33px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav li a:hover{
+    color: rgb(232, 247, 247);
+    background-color: rgb(15, 15, 15);
+}
+
+.img {
+    border: 2px solid rgb(22, 22, 21);
+    background-color: rgb(0, 0, 0);
+    border-radius: 23px;
+    height: 45px;
+}
+
+.harrow {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    justify-content: right;
+    background-color: darkgrey;
+}
+
+.btn{ 
+    color: #fff;
+    background-color: rgb(132, 7, 234);
+    font-size: 20px;
+    margin-right: 5px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(104, 135, 148);
+    color: bisque;
+}
+
+.container{
+    background-color: rgb(171, 165, 165);
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    
+}
+
+.main1{
+    font-size: 15px;
+    width: 20vw;
+    padding: 0px;
+    margin: 0px 0px;
+    border: 3px solid rgb(171, 165, 165);
+    background-color: rgb(104, 135, 148);
+    height: 62vh;
+}
+
+.main1 ul{
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.main1 ul li {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.main1 ul li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main1 ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.main5 {
+   border: 2px solid rgb(171, 165, 165);
+   border-width: 2px 0px 0px 2px;
+   width: 80vw;
+}
+
+.main3 {
+    display: flex;
+}
+
+.main2 img {
+    margin: 10px 10px;
+    background-color: rgb(151, 140, 140);
+    width: 40vw;
+    height: 60vh;
+}
+
+.main4 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.btn1 {
+    height: 30px;
+    color: #fff;
+    background-color: rgb(132, 7, 234);
+    border: 1px solid rgb(6, 6, 6);
+    border-radius: 14px;
+    margin: 5px;
+}
+
+.btn1:hover {
+    color: white;
+    background-color: rgb(104, 135, 148);
+}
+
+.main6 {
+    background-color: rgb(171, 165, 165);
+    border: 2px solid rgb(171, 165, 165);
+    width: 80vw;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.oops {
+    margin-left: 350px;
+}
+
+.courses {
+    display: flex;
+    margin: 25px;
+    
+}
+
+.course1{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    background-color: rgb(104, 135, 148);
+    font-size: 17px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 20vw;
+    height: 350px;
+    margin: 7px;
+    margin-top: 0px;
+}
+
+.course1 img{
+    width: 20vw;
+    height: 22vh;
+}
+
+.course1 a {
+    text-decoration: none;
+}
+
+.course1:hover {
+    text-decoration: none;
+    background-color: rgb(151, 140, 140);
+}
+
+.btn2 {
+    height: 30px;
+    color: #fff;
+    background-color: rgb(132, 7, 234);
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.course2{
+    color: #fff;
+    font-size: 17px;
+    background-color: rgb(104, 135, 148);
+    border: 1px solid rgb(0, 0, 0);
+    width: 20vw;
+    height: 350px;
+    margin: 7px;
+    margin-top: 0px;
+}
+
+.course2 img {
+    width: 20vw;
+    height: 22vh;
+}
+
+.course2 a {
+    text-decoration: none;
+}
+
+.course2:hover {
+    background-color: rgb(151, 140, 140);
+}
+
+.course3{
+    color: #fff;
+    font-size: 17px;
+    background-color:rgb(104, 135, 148);
+    border: 1px solid rgb(0, 0, 0);
+    width: 20vw;
+    height: 350px;
+    margin: 7px;
+    margin-top: 0px;
+}
+
+.course3 img {
+    width: 20vw;
+    height: 22vh;
+}
+
+.course3 a {
+    text-decoration: none;
+}
+
+.course3:hover {
+    background-color: rgb(151, 140, 140);
+}
